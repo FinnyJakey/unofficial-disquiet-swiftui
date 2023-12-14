@@ -11,7 +11,9 @@ Run the following commands from your terminal:
 ## Download Unofficial Disquiet at:
 ~~`[App store]`: https://apps.apple.com/us/app/unofficial-disquiet/id6473772519~~
 > App Store Submission was rejected (can't resolve issues)
+>
 > Guideline 4.1 - Design - Copycats
+>
 > Guideline 4.2.2 - Design - Minimum Functionality
 
 ## Screenshots
