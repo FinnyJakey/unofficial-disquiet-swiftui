@@ -7,18 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		725B085E2B1B233E00DD1936 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B085D2B1B233E00DD1936 /* Product.swift */; };
+		725B08602B1B241E00DD1936 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B085F2B1B241E00DD1936 /* User.swift */; };
+		725B08622B1B243200DD1936 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B08612B1B243200DD1936 /* Team.swift */; };
+		725B08642B1B244600DD1936 /* PostReactionStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B08632B1B244600DD1936 /* PostReactionStat.swift */; };
+		725B08662B1B252B00DD1936 /* Uploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B08652B1B252B00DD1936 /* Uploader.swift */; };
+		725B08682B1B267B00DD1936 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B08672B1B267B00DD1936 /* Topic.swift */; };
+		725B086A2B1B278600DD1936 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B08692B1B278600DD1936 /* ProductModel.swift */; };
+		725B086C2B1B27D500DD1936 /* SortOptionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B086B2B1B27D500DD1936 /* SortOptionEnum.swift */; };
+		725B086E2B1B28AD00DD1936 /* ProductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B086D2B1B28AD00DD1936 /* ProductScreen.swift */; };
+		725B08702B1B299300DD1936 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B086F2B1B299300DD1936 /* ProductView.swift */; };
+		725B08722B1B3AC300DD1936 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B08712B1B3AC300DD1936 /* Club.swift */; };
+		725B08742B1B3B8400DD1936 /* Founder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B08732B1B3B8400DD1936 /* Founder.swift */; };
+		725B08762B1B3BD100DD1936 /* ClubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B08752B1B3BD100DD1936 /* ClubModel.swift */; };
+		725B08782B1B3C1300DD1936 /* ClubScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B08772B1B3C1300DD1936 /* ClubScreen.swift */; };
+		725B087A2B1B407700DD1936 /* ClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B08792B1B407700DD1936 /* ClubView.swift */; };
+		725B087C2B1B464300DD1936 /* TrendingProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B087B2B1B464300DD1936 /* TrendingProduct.swift */; };
+		725B087E2B1B498600DD1936 /* TrendingProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B087D2B1B498600DD1936 /* TrendingProductsView.swift */; };
+		725B08802B1B66AE00DD1936 /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B087F2B1B66AE00DD1936 /* SettingScreen.swift */; };
+		725B08822B1B75E800DD1936 /* FollowingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B08812B1B75E800DD1936 /* FollowingsScreen.swift */; };
+		725B08842B1B7EF800DD1936 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 725B08832B1B7EF700DD1936 /* GoogleService-Info.plist */; };
+		725B08872B1B7F8B00DD1936 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 725B08862B1B7F8B00DD1936 /* FirebaseAnalytics */; };
+		725B08892B1B7F8B00DD1936 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 725B08882B1B7F8B00DD1936 /* FirebaseFirestore */; };
+		725B088B2B1B7F8B00DD1936 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 725B088A2B1B7F8B00DD1936 /* FirebaseMessaging */; };
+		72655AB72B1DAB0400FB7824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72655AB62B1DAB0400FB7824 /* AppDelegate.swift */; };
+		72655AB92B1DAFD100FB7824 /* SafariScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72655AB82B1DAFD100FB7824 /* SafariScreen.swift */; };
+		72655ABB2B1DB56A00FB7824 /* SafariModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72655ABA2B1DB56A00FB7824 /* SafariModel.swift */; };
+		72B0BFFA2B1A43C400356788 /* MakerLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B0BFF92B1A43C400356788 /* MakerLog.swift */; };
+		72B0BFFC2B1A469D00356788 /* MakerLogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B0BFFB2B1A469D00356788 /* MakerLogModel.swift */; };
 		72C9BBC22B1886AD00E0367B /* unofficial_disquietApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C9BBC12B1886AD00E0367B /* unofficial_disquietApp.swift */; };
 		72C9BBC42B1886AD00E0367B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C9BBC32B1886AD00E0367B /* ContentView.swift */; };
 		72C9BBC62B1886AE00E0367B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C9BBC52B1886AE00E0367B /* Assets.xcassets */; };
 		72C9BBC92B1886AE00E0367B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C9BBC82B1886AE00E0367B /* Preview Assets.xcassets */; };
+		72C9BBD32B18887700E0367B /* MakerLogScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C9BBD22B18887700E0367B /* MakerLogScreen.swift */; };
+		72C9BBD52B18888E00E0367B /* TabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C9BBD42B18888E00E0367B /* TabViewScreen.swift */; };
+		72C9BBD72B18942000E0367B /* MakerLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C9BBD62B18942000E0367B /* MakerLogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		725B085D2B1B233E00DD1936 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		725B085F2B1B241E00DD1936 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		725B08612B1B243200DD1936 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		725B08632B1B244600DD1936 /* PostReactionStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostReactionStat.swift; sourceTree = "<group>"; };
+		725B08652B1B252B00DD1936 /* Uploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uploader.swift; sourceTree = "<group>"; };
+		725B08672B1B267B00DD1936 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		725B08692B1B278600DD1936 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		725B086B2B1B27D500DD1936 /* SortOptionEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOptionEnum.swift; sourceTree = "<group>"; };
+		725B086D2B1B28AD00DD1936 /* ProductScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductScreen.swift; sourceTree = "<group>"; };
+		725B086F2B1B299300DD1936 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		725B08712B1B3AC300DD1936 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		725B08732B1B3B8400DD1936 /* Founder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Founder.swift; sourceTree = "<group>"; };
+		725B08752B1B3BD100DD1936 /* ClubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubModel.swift; sourceTree = "<group>"; };
+		725B08772B1B3C1300DD1936 /* ClubScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubScreen.swift; sourceTree = "<group>"; };
+		725B08792B1B407700DD1936 /* ClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubView.swift; sourceTree = "<group>"; };
+		725B087B2B1B464300DD1936 /* TrendingProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingProduct.swift; sourceTree = "<group>"; };
+		725B087D2B1B498600DD1936 /* TrendingProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingProductsView.swift; sourceTree = "<group>"; };
+		725B087F2B1B66AE00DD1936 /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
+		725B08812B1B75E800DD1936 /* FollowingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingsScreen.swift; sourceTree = "<group>"; };
+		725B08832B1B7EF700DD1936 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		725B088C2B1BA00A00DD1936 /* unofficial-disquiet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "unofficial-disquiet.entitlements"; sourceTree = "<group>"; };
+		725B088D2B1BA00F00DD1936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		72655AB62B1DAB0400FB7824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72655AB82B1DAFD100FB7824 /* SafariScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariScreen.swift; sourceTree = "<group>"; };
+		72655ABA2B1DB56A00FB7824 /* SafariModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariModel.swift; sourceTree = "<group>"; };
+		72B0BFF92B1A43C400356788 /* MakerLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakerLog.swift; sourceTree = "<group>"; };
+		72B0BFFB2B1A469D00356788 /* MakerLogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakerLogModel.swift; sourceTree = "<group>"; };
 		72C9BBBE2B1886AD00E0367B /* unofficial-disquiet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unofficial-disquiet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C9BBC12B1886AD00E0367B /* unofficial_disquietApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unofficial_disquietApp.swift; sourceTree = "<group>"; };
 		72C9BBC32B1886AD00E0367B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		72C9BBC52B1886AE00E0367B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72C9BBC82B1886AE00E0367B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72C9BBD22B18887700E0367B /* MakerLogScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakerLogScreen.swift; sourceTree = "<group>"; };
+		72C9BBD42B18888E00E0367B /* TabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewScreen.swift; sourceTree = "<group>"; };
+		72C9BBD62B18942000E0367B /* MakerLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakerLogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +87,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				725B088B2B1B7F8B00DD1936 /* FirebaseMessaging in Frameworks */,
+				725B08872B1B7F8B00DD1936 /* FirebaseAnalytics in Frameworks */,
+				725B08892B1B7F8B00DD1936 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72B0BFF82B1A43B800356788 /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				72B0BFF92B1A43C400356788 /* MakerLog.swift */,
+				725B085D2B1B233E00DD1936 /* Product.swift */,
+				725B085F2B1B241E00DD1936 /* User.swift */,
+				725B08612B1B243200DD1936 /* Team.swift */,
+				725B08632B1B244600DD1936 /* PostReactionStat.swift */,
+				725B08652B1B252B00DD1936 /* Uploader.swift */,
+				725B08672B1B267B00DD1936 /* Topic.swift */,
+				725B08712B1B3AC300DD1936 /* Club.swift */,
+				725B08732B1B3B8400DD1936 /* Founder.swift */,
+				725B087B2B1B464300DD1936 /* TrendingProduct.swift */,
+			);
+			path = Schema;
+			sourceTree = "<group>";
+		};
 		72C9BBB52B1886AD00E0367B = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +132,16 @@
 		72C9BBC02B1886AD00E0367B /* unofficial-disquiet */ = {
 			isa = PBXGroup;
 			children = (
+				725B088D2B1BA00F00DD1936 /* Info.plist */,
+				725B088C2B1BA00A00DD1936 /* unofficial-disquiet.entitlements */,
+				725B08832B1B7EF700DD1936 /* GoogleService-Info.plist */,
+				72B0BFF82B1A43B800356788 /* Schema */,
+				72C9BBD12B18886100E0367B /* Models */,
+				72C9BBD02B18885C00E0367B /* Views */,
+				72C9BBCF2B1887C300E0367B /* Screens */,
 				72C9BBC12B1886AD00E0367B /* unofficial_disquietApp.swift */,
 				72C9BBC32B1886AD00E0367B /* ContentView.swift */,
+				72655AB62B1DAB0400FB7824 /* AppDelegate.swift */,
 				72C9BBC52B1886AE00E0367B /* Assets.xcassets */,
 				72C9BBC72B1886AE00E0367B /* Preview Content */,
 			);
@@ -65,6 +154,43 @@
 				72C9BBC82B1886AE00E0367B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72C9BBCF2B1887C300E0367B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				72C9BBD42B18888E00E0367B /* TabViewScreen.swift */,
+				72C9BBD22B18887700E0367B /* MakerLogScreen.swift */,
+				725B086D2B1B28AD00DD1936 /* ProductScreen.swift */,
+				725B08772B1B3C1300DD1936 /* ClubScreen.swift */,
+				725B087F2B1B66AE00DD1936 /* SettingScreen.swift */,
+				725B08812B1B75E800DD1936 /* FollowingsScreen.swift */,
+				72655AB82B1DAFD100FB7824 /* SafariScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		72C9BBD02B18885C00E0367B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72C9BBD62B18942000E0367B /* MakerLogView.swift */,
+				725B086F2B1B299300DD1936 /* ProductView.swift */,
+				725B08792B1B407700DD1936 /* ClubView.swift */,
+				725B087D2B1B498600DD1936 /* TrendingProductsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72C9BBD12B18886100E0367B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72B0BFFB2B1A469D00356788 /* MakerLogModel.swift */,
+				725B08692B1B278600DD1936 /* ProductModel.swift */,
+				725B08752B1B3BD100DD1936 /* ClubModel.swift */,
+				725B086B2B1B27D500DD1936 /* SortOptionEnum.swift */,
+				72655ABA2B1DB56A00FB7824 /* SafariModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +209,11 @@
 			dependencies = (
 			);
 			name = "unofficial-disquiet";
+			packageProductDependencies = (
+				725B08862B1B7F8B00DD1936 /* FirebaseAnalytics */,
+				725B08882B1B7F8B00DD1936 /* FirebaseFirestore */,
+				725B088A2B1B7F8B00DD1936 /* FirebaseMessaging */,
+			);
 			productName = "unofficial-disquiet";
 			productReference = 72C9BBBE2B1886AD00E0367B /* unofficial-disquiet.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +242,9 @@
 				Base,
 			);
 			mainGroup = 72C9BBB52B1886AD00E0367B;
+			packageReferences = (
+				725B08852B1B7F8B00DD1936 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 72C9BBBF2B1886AD00E0367B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +261,7 @@
 			files = (
 				72C9BBC92B1886AE00E0367B /* Preview Assets.xcassets in Resources */,
 				72C9BBC62B1886AE00E0367B /* Assets.xcassets in Resources */,
+				725B08842B1B7EF800DD1936 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +272,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72C9BBD72B18942000E0367B /* MakerLogView.swift in Sources */,
+				725B08822B1B75E800DD1936 /* FollowingsScreen.swift in Sources */,
+				725B08722B1B3AC300DD1936 /* Club.swift in Sources */,
+				725B085E2B1B233E00DD1936 /* Product.swift in Sources */,
+				725B08742B1B3B8400DD1936 /* Founder.swift in Sources */,
+				72B0BFFA2B1A43C400356788 /* MakerLog.swift in Sources */,
+				72C9BBD52B18888E00E0367B /* TabViewScreen.swift in Sources */,
+				725B08702B1B299300DD1936 /* ProductView.swift in Sources */,
 				72C9BBC42B1886AD00E0367B /* ContentView.swift in Sources */,
+				725B086A2B1B278600DD1936 /* ProductModel.swift in Sources */,
+				725B08762B1B3BD100DD1936 /* ClubModel.swift in Sources */,
+				725B087A2B1B407700DD1936 /* ClubView.swift in Sources */,
+				72655AB92B1DAFD100FB7824 /* SafariScreen.swift in Sources */,
+				725B086C2B1B27D500DD1936 /* SortOptionEnum.swift in Sources */,
+				725B08642B1B244600DD1936 /* PostReactionStat.swift in Sources */,
+				725B08602B1B241E00DD1936 /* User.swift in Sources */,
+				72B0BFFC2B1A469D00356788 /* MakerLogModel.swift in Sources */,
+				725B087E2B1B498600DD1936 /* TrendingProductsView.swift in Sources */,
+				725B08682B1B267B00DD1936 /* Topic.swift in Sources */,
+				72C9BBD32B18887700E0367B /* MakerLogScreen.swift in Sources */,
+				725B08662B1B252B00DD1936 /* Uploader.swift in Sources */,
+				725B08622B1B243200DD1936 /* Team.swift in Sources */,
+				72655AB72B1DAB0400FB7824 /* AppDelegate.swift in Sources */,
+				725B08802B1B66AE00DD1936 /* SettingScreen.swift in Sources */,
 				72C9BBC22B1886AD00E0367B /* unofficial_disquietApp.swift in Sources */,
+				725B087C2B1B464300DD1936 /* TrendingProduct.swift in Sources */,
+				72655ABB2B1DB56A00FB7824 /* SafariModel.swift in Sources */,
+				725B08782B1B3C1300DD1936 /* ClubScreen.swift in Sources */,
+				725B086E2B1B28AD00DD1936 /* ProductScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,24 +426,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "unofficial-disquiet/unofficial-disquiet.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"unofficial-disquiet/Preview Content\"";
 				DEVELOPMENT_TEAM = K33RM495UP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "unofficial-disquiet/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Unofficial Disquiet";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.finnyjakey.unofficial-disquiet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,24 +462,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "unofficial-disquiet/unofficial-disquiet.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"unofficial-disquiet/Preview Content\"";
 				DEVELOPMENT_TEAM = K33RM495UP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "unofficial-disquiet/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Unofficial Disquiet";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.finnyjakey.unofficial-disquiet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +515,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		725B08852B1B7F8B00DD1936 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		725B08862B1B7F8B00DD1936 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 725B08852B1B7F8B00DD1936 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		725B08882B1B7F8B00DD1936 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 725B08852B1B7F8B00DD1936 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		725B088A2B1B7F8B00DD1936 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 725B08852B1B7F8B00DD1936 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 72C9BBB62B1886AD00E0367B /* Project object */;
 }

@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+// MARK: - Team
+struct Team: Codable {
+    let id: Int
+    let name: String
+    let thumbnail: String
+}

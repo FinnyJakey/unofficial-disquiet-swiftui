@@ -1,34 +1,27 @@
 //
-//  WebViewRepresentableScreen.swift
+//  SafariScreen.swift
 //  unofficial-disquiet
 //
 //  Created by Finny Jakey on 2023/12/04.
 //
 
 import SwiftUI
-import WebKit
+import SafariServices
 
-struct WebViewRepresentableScreen: UIViewRepresentable {
+struct SafariScreen: UIViewControllerRepresentable {
     let url: String
 
-    func makeUIView(context: Context) -> WKWebView {
-        guard let url = URL(string: self.url) else {
-            return WKWebView()
-        }
-        
-        let webview = WKWebView()
-        webview.load(URLRequest(url: url))
-        
-        return webview
+    func makeUIViewController(context: UIViewControllerRepresentableContext<SafariScreen>) -> SFSafariViewController {
+        return SFSafariViewController(url: URL(string: url)!)
     }
 
-    func updateUIView(_ uiView: WKWebView, context: UIViewRepresentableContext<WebViewRepresentableScreen>) {
+    func updateUIViewController(_ uiViewController: SFSafariViewController, context: UIViewControllerRepresentableContext<SafariScreen>) {
         
     }
 }
 
-struct WebViewRepresentableScreen_Previews: PreviewProvider {
+struct SafariScreen_Previews: PreviewProvider {
     static var previews: some View {
-        WebViewRepresentableScreen(url: "https://example.com")
+        SafariScreen(url: "https://example.com")
     }
 }

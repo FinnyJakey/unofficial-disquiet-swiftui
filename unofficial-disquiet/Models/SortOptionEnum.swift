@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+enum SortOption: String {
+    case popular = "popular"
+    case recent = "recent"
+}
